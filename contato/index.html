@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/common/header.css">
+    <link rel="stylesheet" href="../assets/css/common/style.css">
+    <link rel="stylesheet" href="../assets/css/common/footer.css">
+    <link rel="stylesheet" href="../assets/css/about/about.css">
+    <link rel="stylesheet" href="../assets/css/contact/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-header">
+            <img src="../assets/css/img/logo.svg" alt="logo empresa">
+        </div>
+
+        <label class="menu-mobile" for="menu-control"></label>
+        <input type="checkbox" class="menu-control" id="menu-control">
+
+        <div class="opcoes-menu">
+            <a href="../index.html">Home</a>
+            <a href="/sobre/index.html">Sobre nós</a>
+            <a href="#saiba-mais">Serviços</a>
+            <a href="/contato/index.html">Contato</a>
+        </div>
+
+        <div class="logo-para-mobile"></div>
+    </header>
+
+    <section class="contato">
+
+        <div class="container container-apresentacao container-inicio-contato">
+            <div class="conteudo-apresentacao">
+                <h1 class="titulo titulo-apresentacao">
+                    Contato
+                </h1>
+                <p>Olá, somos a Lorem Ipsum.<br>
+                    Nosso trabalho é desenvolver textos de marcação.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="entrar-em-contato">
+
+        <div class="container container-contato">
+            <div class="form-contato">
+                <div class="cabecalho">
+                    <h3>Envie-nos uma mensagem</h3>
+                    <img src="../assets/css/img/envelop-2.svg" alt="envelope">
+                </div>
+
+                <form action="/contato-finalizado/index.html" method="GET" class="formulario-contato">
+                    <div class="form-division">
+
+                        <section class="form-wrapper">
+                            <span>Nome</span>
+
+                            <label for="name">
+
+                            </label>
+                            <input type="text" class="name" placeholder="Ex: José Maria da Silva" required="required">
+                        </section>
+
+                        <section class="form-wrapper">
+                            <span>E-mail</span>
+                            <label for="email">
+                            </label>
+                            <input type="text" class="email" placeholder="Ex: seuemail@email.com" required="required">
+
+                        </section>
+                    </div>
+
+                    <div class="form-division form-assunto-ramo">
+
+                        <section class="form-wrapper form-ramo">
+
+                            <label> Ramo em que atua </label>
+                            <select name="atuacao" class="select-bonito" required>
+                                <option selected disabled value="">Selecione...</option>
+                                <option value="front">Front</option>
+                                <option value="back">Back</option>
+                            </select>
+
+                        </section>
+
+                        <section class="form-wrapper form-assunto">
+
+                            <div class="assunto">
+                                <span>Assunto</span>
+                            </div>
+
+                            <div class="select-bonito opcoes-assunto">
+                                <input type="radio" class="investimento" name="assunto" required>
+                                <label for="investimento">
+
+                                    Investimento
+                                </label>
+
+                                <input type="radio" class="contratacao" name="assunto">
+                                <label for="contratacao">
+                                    Contratação
+                                    
+                                </label>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="form-division">
+                        <section class="form-wrapper form-mensagem">
+                            <span>Mensagem</span>
+
+                            <label for="mensagem">
+
+                            </label>
+                            <input type="textarea" class="mensagem" placeholder="Digite sua mensagem aqui..." required>
+
+                        </section>
+                    </div>
+
+                    <div class="form-division form-enviar">
+                        <section class="form-wrapper form-privacidade">
+                            <input type="checkbox" required id="checkbox">
+                            <label for="checkbox">
+                            </label>
+                            <div class="texto-privacidade">
+                                <p>Li e concordo com a
+                                    <u>politíca de privacidade.</u></p>
+                            </div>
+
+                        </section>
+
+                        <section class=botao-enviar>
+                            <button type="submit" class="botao botao-secundario botao-submit">
+                                ENVIAR >
+                            </button>
+                      </section>
+                    </div>
+              </form>
+            </div>
+
+            <div class="info-contato">
+                <h3>Informações de contato</h3>
+                <div class="informacoes-contato">
+                    <div class="localizacao">
+                        <img src="../assets/css/img/vector-12.svg" alt="localizacao">
+                        <p>Av. Theodomiro Porto da Fonseca, 3101 - Cristo Rei, São Leopoldo -
+                            RS, 93022-715</p>
+                    </div>
+                    <div class="numero">
+                        <img src="../assets/css/img/vector-13.svg" alt="telefone">
+                        <p>(51)3081-3600</p>
+                    </div>
+                    <div class="email">
+                        <img src="../assets/css/img/vector-14.svg" alt="email">
+                        <p>contato@loremipsungram.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="parte-superior-footer">
+            <div class="logo">
+                <img src="../assets/css/img/logo.svg" alt="logo empresa">
+            </div>
+            <div class="crescer-logo">
+                <img src="../assets/css/img/crescer-logo-1.svg" alt="logo crescer">
+            </div>
+
+            <div class="copyright">
+                <p class="paragrafo">Copyright 2019 Todos os direitos.</p>
+
+            </div>
+        </div>
+
+        <div class="parte-inferior-footer">
+            <div class="opcoes-menu">
+                <a href="../index.html">Home</a>
+                <a href="/sobre/index.html">Sobre nós</a>
+                <a href="#saiba-mais">Serviços</a>
+                <a href="/contato/index.html">Contato</a>
+            </div>
+            <p class="paragrafo">Copyright 2019 Todos os direitos reservados à Lorem Ipsum.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

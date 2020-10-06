@@ -1,0 +1,407 @@
+:root {
+    --cor-principal: #FF8E6E;
+    --cor-secundaria: #515070;
+    --cor-terciaria: #FFFFFF;
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Open Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding-top: 80px; 
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+        min-height: 100vh;
+        width: 90%;
+        margin: 0 auto;  
+}
+
+.botao-primario {
+    background-color: var(--cor-principal);
+}
+
+.botao-secundario{
+    background-color: var(--cor-secundaria);
+}
+
+.titulo {
+    font-size: 48px;
+    font-family: var(--fonte-principal);
+}
+
+.apresentacao {
+
+    background-image: url("../img/imagem-exportar-1.jpg");
+    font-family: var(--fonte-principal);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-apresentacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-apresentacao{
+    margin-bottom: 19px;
+    color: var(--cor-terciaria);
+}
+
+.apresentacao p {
+    font-size: 18px;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    margin-bottom: 36px;
+}
+
+.botao{
+    padding: 22px 28px 21px 30px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px; 
+}
+
+.container-sobre-nos-home{
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   font-family: var(--fonte-secundaria);
+   font-size: 18px;
+   color: var(--cor-secundaria);  
+}
+
+.titulo-sobre-nos-home{
+    margin-top: 7px;
+    margin-bottom: 39px;
+    color: var(--cor-principal);
+}
+
+.paragrafo {
+    max-width: 493px;
+    font-size: 14px;
+    line-height: 29px;
+    font-family: var(--fonte-secundaria);
+}
+
+.paragrafo-sobre-nos-home{
+    color: #898989;
+    margin-bottom: 50px;
+}
+
+.nossos-servicos-home{
+    background-image: url("../img/imagem-exportar-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-nossos-servicos-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.saiba-mais-servicos {
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    color: var(--cor-terciaria);
+    max-width: 493px;
+}
+
+.titulo-nosso-servico-home {
+    margin-bottom: 39px;
+    margin-top: 7px;
+    color: var(--cor-terciaria);
+}
+
+.paragrafo-nossos-servicos-home{
+    color: var(--cor-terciaria);
+    margin-bottom: 47px;
+    min-height: 134px;
+}
+
+.depoimentos {
+    background-color: #F6F6F6;
+}
+
+.container-depoimentos {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.conteudo-depoimentos .nome-cliente {
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    color: #515070;
+}
+
+.titulo-depoimentos {
+    margin-top: 7px;
+    margin-bottom: 40px;
+    color:var(--cor-principal);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.cards-depoimentos {
+    background-color: var(--cor-terciaria);
+    margin-right: 10px;
+    max-width: 580px;
+    padding: 20px 64px 19px 20px;
+    border-radius: 3px;
+}
+
+.info-pessoa {
+    display: flex;
+    align-items: center;
+}
+
+.descricao-depoimento {
+    color: #898989;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+
+.info-postagem-pessoa .nome{
+    font-family:var(--fonte-principal);
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--cor-secundaria);
+}
+
+.info-postagem-pessoa .data {
+    font-family:var(--fonte-principal);
+    font-size: 12px;
+    color: var(--cor-principal);
+    margin-top: 3px;
+}
+
+.info-postagem-pessoa {
+    margin-left: 19px;
+}
+
+.container-funcionalidades {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.funcionalidades {
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+}
+
+.titulo-responsivo {
+    font-size: 32px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    display: none;
+}
+
+.funcionalidades h1{
+    padding-top: 59px;
+    color: var(--cor-principal);
+    margin-bottom: 19px;
+}
+
+.imagem-celular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.card-funcionalidade {
+    display: flex;
+    margin-top: 80px;
+}
+
+.card-funcionalidade-texto {
+    margin-left: 20px;
+    max-width: 243px;
+}
+
+.card-funcionalidade-texto h5 {
+    font-family:var(--fonte-principal);
+    font-size: 18px;
+    color:var(--cor-terciaria);
+    margin-bottom: 10px;
+}
+
+.card-funcionalidade-texto p {
+    line-height: 22px;
+    color: var(--cor-terciaria);
+}
+
+.container-contato-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contato-home {
+    background-color: #F6F6F6;
+}
+
+.conteudo-contato-home {
+    margin-left: 15%;
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    color: var(--cor-secundaria);
+}
+
+.conteudo-contato-home h1{
+    margin-top: 7px;
+    color: var(--cor-principal);
+    margin-bottom: 39px;
+}
+
+.conteudo-contato-home p{
+    font-size: 14px;
+    color: #898989;
+    line-height: 29px;
+    margin-bottom: 47px;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding-top: 0px;
+    }
+
+    .titulo-apresentacao {
+        font-size: 38px;
+    }
+
+    .conteudo-apresentacao p {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .conteudo-apresentacao a {
+        background-color: var(--cor-secundaria);
+    }
+}
+
+@media (max-width: 700px){
+    .container-sobre-nos-home {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .container-sobre-nos-home img {
+        max-width: 70vw;
+        margin-bottom: 10%;
+    }
+
+    .container-sobre-nos-home h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 700px) {
+    .titulo-nosso-servico-home {
+        font-size: 32px;
+        margin-bottom: 15%;
+    }
+}
+
+@media (max-width: 700px) {
+    .titulo-depoimentos {
+        font-size: 32px;
+        margin-bottom: 15%;
+    }
+
+    .conteudo-depoimentos {
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    .container-depoimentos .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-pessoa {
+        flex-direction: column;
+        padding-top: 2%;
+    }
+
+    .cards-depoimentos{
+        margin-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .container-funcionalidades {
+        flex-direction: column;
+    }
+
+    .cards-lado-direito {
+        order: 1;
+    }
+
+    .imagem-celular {
+        margin-top: 15%;
+        order: 2;
+    }
+
+    .titulo-funcionalidades {
+        display: none;
+    }
+
+    .titulo-responsivo {
+        display: block;
+        text-align: center; 
+    }
+
+}
+
+@media (max-width: 780px) {
+    .container-contato-home{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-contato-home img {
+        max-width: 60vw;
+        margin-bottom: 10%;
+    }
+
+    .container-contato-home h1 {
+        font-size: 32px;
+    }
+
+    .conteudo-contato-home {
+        margin-left: 5%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .funcionalidades h1 {
+        font-size: 20px;
+    }
+
+    .imagem-celular img {
+        max-width: 90vw;
+    }
+}

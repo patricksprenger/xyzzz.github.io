@@ -1,0 +1,295 @@
+:root {
+    --cor-principal: #FF8E6E;
+    --cor-secundaria: #515070;
+    --cor-terciaria: #FFFFFF;
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Open Sans', sans-serif;
+}
+
+.container-inicio-contato {
+    min-height: 70vh;
+}
+
+.container-contato{
+    min-height: 80vh;
+    width: 90%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contato {
+    background-image: url("../img/imagem-exportar-4.jpg");
+    font-family: var(--fonte-principal);
+    background-repeat: no-repeat;
+}
+
+.contato p {
+    font-size: 18px;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    margin-bottom: 36px;
+}
+
+.info-contato {
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+    
+}
+
+.info-contato h3 {
+    margin-top: 39px;
+    font-family: var(--fonte-principal);
+    color: var(--cor-terciaria);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 125px;
+}
+
+.localizacao {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.numero {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.email {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.informacoes-contato {
+    
+    font-size: 14px;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25vw;
+    padding-left: 5%;
+}
+
+.informacoes-contato p {
+    margin-left: 22px;
+}
+
+.info-contato h3{
+    padding-left: 5%;
+}
+
+.cabecalho {
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 56px;
+    padding-bottom: 39px;
+    font-size: 18px;
+    color: var(--cor-principal);
+    line-height: 24px;
+    font-family: var(--fonte-principal);
+}
+
+
+input {
+    padding-bottom: 15px;
+    padding-top: 23px;
+    border: none;
+    border-bottom: 1px solid #D7D7D7;   
+}
+
+.form-wrapper {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: bold;
+    color: #898989;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-right: 40px;
+    margin-bottom: 32px;
+}
+
+.form-division {
+    display: flex;
+}
+
+::-webkit-input-placeholder {
+    color: #A9A9A9;
+    font-size: 14px;
+    font-style: var(--fonte-secundaria);
+}
+
+.form-assunto {
+    display: flex;
+    flex-direction: column;
+}
+
+.select-bonito {
+    padding-top: 23px;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #D7D7D7;
+    color: #A9A9A9;
+    font-size: 14px;
+    font-style: var(--fonte-secundaria);  
+    font-weight:normal ; 
+}
+
+.contratacao {
+    margin-left: 20px;
+}
+
+.form-mensagem{
+    width: 100%;
+}
+
+.form-mensagem input{
+    padding-bottom: 44px;
+}
+
+#mensagem::-webkit-input-placeholder{
+    color: #898989;
+}
+
+.form-privacidade {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.texto-privacidade {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.form-enviar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 39px;
+    padding-bottom: 33px;
+}
+
+.botao-submit:hover {
+    cursor: pointer;
+}
+
+
+.mensagem-contato {
+    height: 80vh;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagem-contato img {
+    width: 10vh;
+    margin-bottom: 30px;
+}
+
+.mensagem-contato  h2 {
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+
+@media (max-width:800px){
+    .container-contato {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .info-contato {
+        padding-left: 10%;
+        width: 100vw;
+    }
+
+    .form-division {
+        flex-direction: column;
+
+    }
+
+    input.name {
+        width: 90vw;
+    }
+
+    input.email {
+        width: 90vw;
+        margin-bottom: 5%;
+    }
+
+    input.mensagem {
+        width: 90vw;
+    }
+
+    .formulario-contato {
+        padding: 5%;
+
+    }
+
+    .cabecalho h3 {
+        min-width: 238px;
+    }
+
+    .cabecalho {
+        padding-left: 5%;
+        width: 90vw;
+        display: flex;
+        justify-content: space-between;
+        font-size: 17px;
+    }
+
+    .form-assunto {
+        order: -1;
+        width: 90vw;
+    }
+
+    .opcoes-assunto {
+        display: flex;
+        border-bottom: 0;
+    }
+
+    input.investimento {
+        width: 30px;
+        margin-right: 9px;
+    }
+
+    input.contratacao {
+        width: 30px;
+        margin-right: 9px;
+    }
+
+    .form-ramo {
+        width: 90vw;
+    }
+
+    .form-privacidade {
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        margin-left: 10vw;
+    }
+
+
+    .form-enviar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+    }
+
+}
+
+
+

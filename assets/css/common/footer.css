@@ -1,0 +1,75 @@
+footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #898989;
+    height: 187px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 75px 50px 71px;
+    box-shadow: 0px -1px 9px 0px rgba(0,0,0,0.3); 
+}
+
+.parte-superior-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parte-inferior-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcoes-menu {
+    display: flex;
+    width: 412px;
+    justify-content: space-between;
+}
+
+.opcoes-menu a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.copyright {
+    display: none;
+}
+
+@media (max-width: 780px) {
+    footer{
+        height: 10vh;
+        padding: 0;
+        align-items: stretch;
+        justify-content: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .crescer-logo {
+        display: none;
+    }
+
+    .parte-inferior-footer{
+        display: none;
+    }
+
+    .copyright {
+        display: block;
+    }
+}
+
+@media (max-width: 350px){
+    footer {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 400px) {
+    .copyright {
+        display: none;
+    }
+
+    footer {
+        align-items: center;
+    }
+}
+

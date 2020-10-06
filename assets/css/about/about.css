@@ -1,0 +1,138 @@
+:root {
+    --cor-principal: #FF8E6E;
+    --cor-secundaria: #515070;
+    --cor-terciaria: #FFFFFF;
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-secundaria: 'Open Sans', sans-serif;
+}
+
+.container-sobre-nos{
+    min-height: 90vh;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.sobre-nos {
+    background-image: url("../img/imagem-exportar.jpg");
+    font-family: var(--fonte-principal);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobre-nos p {
+    font-size: 18px;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    margin-bottom: 36px;
+}
+
+.container-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-nosso-time {
+    color: var(--cor-secundaria);
+}
+
+.informacoes p {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+    margin-bottom: 47px;
+}
+
+.info-colaboradores {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image {
+    display: block;
+}
+
+.card-content {
+    background: rgba(81,80,112,0.7);
+    padding: 257px 13px 19px 14px;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria);
+    position: absolute;
+    bottom: 0px;
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+}
+
+.card:hover .card-content {
+    transform: translateY(0);
+}
+
+.card-content p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 10px
+}
+
+.card-content h5 {
+    font-size: 18px;
+}
+
+.filosofia-empresa {
+    background-color: #F6F6F6;
+}
+
+.container-valores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-card-filosofia {
+    display: flex;
+}
+
+.titulo-card-filosofia h2 {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    margin-left: 26px;
+    color: var(--cor-secundaria);
+}
+
+
+.card-filosofia p {
+    color:  #898989;
+    max-width: 336px;
+    margin-top: 27px;
+}
+
+@media (max-width: 800px){
+
+    .informacoes {
+        margin-top: 10%;
+    }
+
+    .info-colaboradores{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 5%;
+    }
+
+    .container-valores {
+        flex-direction: column;
+        padding-bottom: 10vh;  
+    }
+
+    .card-filosofia {
+        padding-top: 10vh;
+    }
+}
